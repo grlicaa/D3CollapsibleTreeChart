@@ -56,7 +56,7 @@ You can even use Selectlist 2 Plug-in for adding multiple parents.<br/>
 ![](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample5.png)
 
 
-## Apex Versions
+## APEX Versions
 <ul>
 <li>Application Express 5.x</li>
 <li>Application Express 18.x</li>
