@@ -30,12 +30,10 @@ Here are few options you need to define carefully.
 <li>
 Page items to submit: <br/>
 If this is null tree don't work.<br/>
-![](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample1.png)
 </li>
 <li>
 Number of rows: <br/>
 If this number is lower than ROWNUMBER of your SQL Query additional rows does not get presented on tree.<br/>
-![](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample7.png)
 </li>
 </ol>
 
