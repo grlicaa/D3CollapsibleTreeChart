@@ -26,16 +26,14 @@ Plugin was build due to colaboration with [APEX R&D](https://www.apexrnd.be)
 
 ### Must define
 Here are few options you need to define carefully.
-<ol>
-<li>
-Page items to submit: <br/>
+
+#### Page items to submit: 
 If this is null tree don't work.<br/>
-</li>
-<li>
-Number of rows: <br/>
+![](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample1.png)
+#### Number of rows:
 If this number is lower than ROWNUMBER of your SQL Query additional rows does not get presented on tree.<br/>
-</li>
-</ol>
+![](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample7.png)
+
 
 ### Colors
 To set custom colors you need to define color value field in SQL query.<br/>
