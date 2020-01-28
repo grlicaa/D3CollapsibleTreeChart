@@ -1,0 +1,29 @@
+{
+  "name" : "D3CollapsibleTreeChart",
+  "version" : "6.0.1",
+  "description" : "Oracle Application Express region Plug-in for D3 collapsible tree chart with multiple parents.",
+  "keywords" : ["d3", "tree", "collapsible", "multiple parents"],
+  "homepage" : "https://github.com/grlicaa/D3CollapsibleTreeChart",
+  "license" : "MIT",
+  "author" : {
+    "name" : "Andrej Grlica",
+    "email" : "andrej.grlica@right-thing.solutions",
+    "twitter" : "AndrejGrlica",
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/grlicaa/D3CollapsibleTreeChart.git"
+  },
+  "oracle" : {
+    "versions" : ["12.2.0.1", "12.1.0.1", "11.2.0.1"],
+    "apex" : {
+      "versions" : ["5.0.0", "5.0.1", "5.0.2", "5.0.3", "5.0.4", "5.1.0", "5.1.1", "5.1.2", "5.1.3", "5.1.4", "18.1", "18.2", "19.1", "19.2"],
+      "plugin" : {
+        "internalName" : "com.oracle.apex.d3.coll.tree",
+        "type" : "region",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=67842",
+        "previewImage" : "https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/D3TreePreview.gif"
+      }
+    }
+  }
+}
