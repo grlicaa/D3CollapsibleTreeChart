@@ -13,7 +13,7 @@ Found in applications: Sample Charts
 - added option Multiple parents
 
 ## About
-Plugin was build due to colaboration with [APEX R&D](https://www.apexrnd.be)
+Plugin was build due to collaboration with [APEX R&D](https://www.apexrnd.be)
 
 ## Install
 <ol>
