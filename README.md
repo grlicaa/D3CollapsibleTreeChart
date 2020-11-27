@@ -53,6 +53,7 @@ If this number is lower than ROWNUMBER of your SQL Query additional rows does no
 To set custom colors you need to define color value field in SQL query.
 Sample picture :
 ![sample1](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample1.png)
+
 Next in attributes section find "Color Scheme" and choose Query Column.
 Here you can define Legend Color Mapping like in a picture sample below:
 
