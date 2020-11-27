@@ -40,6 +40,7 @@ Here are few options you need to define carefully.
 #### Page items to submit
 
 If this is null tree don't work.
+
 ![sample1](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample1.png)
 
 #### Number of rows
@@ -54,12 +55,14 @@ Sample picture :
 ![sample1](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample1.png)
 Next in attributes section find "Color Scheme" and choose Query Column.
 Here you can define Legend Color Mapping like in a picture sample below:
+
 ![sample2](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample2.png)
 
 ### Multiple parents
 
 ![sample6](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample6.png)
 Setting for this is simple, just put one field "Parent" with multiple column delimited values like "10:20:30"
+
 ![sample3](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample3.png)
 ![sample4](https://raw.githubusercontent.com/grlicaa/D3CollapsibleTreeChart/master/docs/sample4.png)
 You can even use Selectlist 2 Plug-in for adding multiple parents.
@@ -90,20 +93,30 @@ Sample of data object :
 ```
 
 To get that data inside following events use next JavaScript expression :
-Command : `this.data`
-Test with : `console.log("event data :", this.data);`
+
+- Command : `this.data`
+- Test with : `console.log("event data :", this.data);`
 
 ##### Events list
 
 - D3Chart_Initialized
+
     This action is triggered when D3 is fully initialized.
+
 - D3Chart_MouseClick
+
     When user clicks on tree node circle.
+
 - D3Chart_MouseDblClick
+
     When user double clicks on tree node circle.
+
 - D3Chart_MouseOut
+
     When user move mouse on tree node circle.
+
 - D3Chart_MouseOver
+
     When user move mouse out of tree node circle.
 
 #### Additional events
@@ -117,7 +130,7 @@ $("#REG_NAME").trigger( "com_oracle_apex_d3_tree_expand"   );
 
 ## APEX Versions
 
-Application Express 5.x
-Application Express 18.x
-Application Express 19.x
-Application Express 20.x
+- Oracle Application Express 5.x
+- Oracle Application Express 18.x
+- Oracle Application Express 19.x
+- Oracle Application Express 20.x
