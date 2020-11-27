@@ -15,7 +15,10 @@ A demo application is available on apex.oracle.com
 
 - Added inline .js and .css files (APEX 20.2 deprecated those files)
 - Fixed dynamic action "dblclick"
-- Added dynamic documentationPreview image
+- Added dynamic action "keydown"
+- Added on link (text) click event trigger "onClick"
+- Added dynamic documentation
+- Fixed issue [#3](https://github.com/grlicaa/D3CollapsibleTreeChart/issues/3)
 
 ### V 6.0.1
 
@@ -119,6 +122,10 @@ To get that data inside following events use next JavaScript expression :
 - D3Chart_MouseOver
 
     When user move mouse out of tree node circle.
+
+- D3Chart_Keydown
+
+    When user use keyboard inside node element this event is triggered.
 
 #### Additional events
 

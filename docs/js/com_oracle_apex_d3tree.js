@@ -258,7 +258,7 @@ com_oracle_apex_d3_tree_start = function(
           ix = lookup["LO"+lookup2["LO"+pRootParentId][i]];
 
           lrow.ID         = pData.row[ix].ID;
-		  lrow.CHILD_PARENT= pData.row[ix].ID+"_"+pRootParentId;
+		      lrow.CHILD_PARENT= pData.row[ix].ID+"_"+pRootParentId;
           lrow.SIZEVALUE  = pData.row[ix].SIZEVALUE;
           lrow.DEPTH      = pDepth,
           lrow.COLORVALUE = pData.row[ix].COLORVALUE;
@@ -573,6 +573,7 @@ com_oracle_apex_d3_tree_start = function(
     }
 
     function processEvent_linkClick(d) {
+      fireApexEvent("click", d);
       if (d.LINK) {
         var win = apex.navigation.redirect(d.LINK);
         win.focus();
@@ -638,6 +639,7 @@ com_oracle_apex_d3_tree_start = function(
       .append("g")
       .attr("id",        function(d) { return gIdPrefix + pRegionId + "_" + d.ID})
       .attr("class",     function(d) { return getCssClass(d, false);})
+      .attr("tabindex", "1")
       .attr("transform", function(d) { adjustSvgWidth(getAvgMultiNodesPosition('dy', d.ID)); return "translate(" + source.y0 + "," + source.x0 + ")"; })
       .on("dblclick", function(d) {fireApexEvent("dblclick", d);})
     ;
@@ -788,6 +790,8 @@ com_oracle_apex_d3_tree_start = function(
       ;
       fireApexEvent("mouseout", d);
     }); 
+
+    nodeEnter.on("keydown", function(d) { fireApexEvent("keydown", d); });
 	
     // UPDATE SECTION!
 
