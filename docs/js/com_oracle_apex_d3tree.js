@@ -639,7 +639,7 @@ com_oracle_apex_d3_tree_start = function(
       .attr("id",        function(d) { return gIdPrefix + pRegionId + "_" + d.ID})
       .attr("class",     function(d) { return getCssClass(d, false);})
       .attr("transform", function(d) { adjustSvgWidth(getAvgMultiNodesPosition('dy', d.ID)); return "translate(" + source.y0 + "," + source.x0 + ")"; })
-      .on("dblClick", function(d) {fireApexEvent("dblClick", d);})
+      .on("dblclick", function(d) {fireApexEvent("dblclick", d);})
     ;
 
     nodeEnter.append("circle")

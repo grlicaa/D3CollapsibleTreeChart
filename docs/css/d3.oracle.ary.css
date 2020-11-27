@@ -1,0 +1,129 @@
+.a-D3ChartLegend-layout:after, .a-D3ChartLegend-item:after, .a-D3ChartLegend-item-value:after, .a-D3ChartLegend.a-D3ChartLegend--columns-2:after, .a-D3ChartLegend.a-D3ChartLegend--columns-3:after, .a-D3ChartLegend.a-D3ChartLegend--columns-4:after, .a-D3ChartLegend.a-D3ChartLegend--columns-5:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.a-D3ChartLegend-item-label {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.a-D3ChartLegend.a-D3ChartLegend--columns-2 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(2n + 1), .a-D3ChartLegend.a-D3ChartLegend--columns-3 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(3n + 2), .a-D3ChartLegend.a-D3ChartLegend--columns-3 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(3n + 1), .a-D3ChartLegend.a-D3ChartLegend--columns-3 .a-D3ChartLegend-item:nth-last-of-type(3):nth-of-type(3n + 1), .a-D3ChartLegend.a-D3ChartLegend--columns-4 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(4n + 3), .a-D3ChartLegend.a-D3ChartLegend--columns-4 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(4n + 2), .a-D3ChartLegend.a-D3ChartLegend--columns-4 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(4n + 1), .a-D3ChartLegend.a-D3ChartLegend--columns-4 .a-D3ChartLegend-item:nth-last-of-type(3):nth-of-type(4n + 2), .a-D3ChartLegend.a-D3ChartLegend--columns-4 .a-D3ChartLegend-item:nth-last-of-type(3):nth-of-type(4n + 1), .a-D3ChartLegend.a-D3ChartLegend--columns-4 .a-D3ChartLegend-item:nth-last-of-type(4):nth-of-type(4n + 1), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(5n + 4), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(5n + 3), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(5n + 2), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(2):nth-of-type(5n + 1), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(3):nth-of-type(5n + 3), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(3):nth-of-type(5n + 2), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(3):nth-of-type(5n + 1), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(4):nth-of-type(5n + 2), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(4):nth-of-type(5n + 1), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-last-of-type(5):nth-of-type(5n + 1) {
+  border-bottom: none; }
+
+.a-D3ChartLegend.a-D3ChartLegend--columns-2 .a-D3ChartLegend-item:nth-of-type(2n), .a-D3ChartLegend.a-D3ChartLegend--columns-3 .a-D3ChartLegend-item:nth-of-type(3n), .a-D3ChartLegend.a-D3ChartLegend--columns-4 .a-D3ChartLegend-item:nth-of-type(4n), .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item:nth-of-type(5n) {
+  border-right: none; }
+
+.a-D3ChartLegend.a-D3ChartLegend--show-value .a-D3ChartLegend-item-value, .a-D3ChartLegend.a-D3ChartLegend--show-value-on-hover .a-D3ChartLegend-item:hover .a-D3ChartLegend-item-value, .a-D3ChartLegend.a-D3ChartLegend--show-value-on-hover .a-D3ChartLegend-item--active .a-D3ChartLegend-item-value {
+  position: static;
+  visibility: visible;
+  opacity: 1;
+  margin-right: 0; }
+
+.a-D3ChartLegend {
+  position: relative; }
+  .a-D3ChartLegend-title {
+    padding: 0.5em;
+    border-bottom: 1px solid #aaa;
+    text-align: center;
+    font-weight: bold;
+    background: #f0f0f0; }
+  .a-D3ChartLegend-item {
+    width: 100%;
+    position: relative;
+    line-height: 1.15em;
+    border-bottom: 1px solid #aaa;
+    background: #fff;
+    box-sizing: border-box; }
+    .a-D3ChartLegend-item:hover .a-D3ChartLegend-item-color, .a-D3ChartLegend-item.a-D3ChartLegend-item--active .a-D3ChartLegend-item-color {
+      width: 1.65em; }
+    .a-D3ChartLegend-item-label {
+      padding: 0.5em; }
+    .a-D3ChartLegend-item-color {
+      width: 0.5em;
+      height: 2.15em;
+      border-left: 1px solid #aaa;
+      float: right;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      transition: 0.25s ease-in-out;
+      transition-property: width; }
+    .a-D3ChartLegend-item-value {
+      line-height: 1.4375em;
+      padding: 0.625em;
+      float: right;
+      font-size: 0.8em;
+      color: #707070;
+      max-width: 5em;
+      text-align: right;
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s linear, opacity 0.25s ease-in-out, margin-right 0.25s ease-in-out; }
+    .a-D3ChartLegend-item:last-of-type {
+      border-bottom: none; }
+    .a-D3ChartLegend-item.a-D3ChartLegend-item--with-link {
+      cursor: pointer; }
+      .a-D3ChartLegend-item.a-D3ChartLegend-item--with-link .a-D3ChartLegend-item-label, .a-D3ChartLegend-item.a-D3ChartLegend-item--with-link .a-D3ChartLegend-item-color, .a-D3ChartLegend-item.a-D3ChartLegend-item--with-link .a-D3ChartLegend-item-value {
+        cursor: pointer; }
+  .a-D3ChartLegend.a-D3ChartLegend--columns-2 .a-D3ChartLegend-item {
+    width: calc(100% / 2 - 0.1px);
+    float: left;
+    border-right: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--columns-3 .a-D3ChartLegend-item {
+    width: calc(100% / 3 - 0.1px);
+    float: left;
+    border-right: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--columns-4 .a-D3ChartLegend-item {
+    width: calc(100% / 4 - 0.1px);
+    float: left;
+    border-right: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--columns-5 .a-D3ChartLegend-item {
+    width: calc(100% / 5 - 0.1px);
+    float: left;
+    border-right: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--hide-title .a-D3ChartLegend-title {
+    display: none; }
+  .a-D3ChartLegend.a-D3ChartLegend--external-borders {
+    border: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--top-border-only, .a-D3ChartLegend.a-D3ChartLegend--right-border-only, .a-D3ChartLegend.a-D3ChartLegend--bottom-border-only, .a-D3ChartLegend.a-D3ChartLegend--left-border-only {
+    border: none; }
+  .a-D3ChartLegend.a-D3ChartLegend--top-border-only {
+    border-top: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--right-border-only {
+    border-right: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--bottom-border-only {
+    border-bottom: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--left-border-only {
+    border-left: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--no-top-border {
+    border-top: none; }
+  .a-D3ChartLegend.a-D3ChartLegend--no-right-border {
+    border-bottom: none; }
+  .a-D3ChartLegend.a-D3ChartLegend--no-bottom-border {
+    border-bottom: none; }
+  .a-D3ChartLegend.a-D3ChartLegend--no-left-border {
+    border-bottom: none; }
+  .a-D3ChartLegend.a-D3ChartLegend--no-internal-borders .a-D3ChartLegend-item {
+    border: none; }
+  .a-D3ChartLegend.a-D3ChartLegend--background .a-D3ChartLegend-layout {
+    background: #e3e3e3; }
+  .a-D3ChartLegend.a-D3ChartLegend--big-square-color .a-D3ChartLegend-item:hover .a-D3ChartLegend-item-color {
+    width: 2.15em; }
+  .a-D3ChartLegend.a-D3ChartLegend--square-color .a-D3ChartLegend-item-color, .a-D3ChartLegend.a-D3ChartLegend--circle-color .a-D3ChartLegend-item-color {
+    width: 1.15em;
+    height: 1.15em;
+    margin: 0.5em; }
+  .a-D3ChartLegend.a-D3ChartLegend--left-color .a-D3ChartLegend-item-color {
+    float: left;
+    border-left: none;
+    border-right: 1px solid #aaa; }
+  .a-D3ChartLegend.a-D3ChartLegend--circle-color .a-D3ChartLegend-item-color {
+    border-radius: 100%;
+    border: none; }
+
+/*# sourceMappingURL=d3.oracle.ary.css.map */

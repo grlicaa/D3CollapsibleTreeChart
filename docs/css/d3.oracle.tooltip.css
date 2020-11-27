@@ -1,0 +1,75 @@
+/*
+	Oracle Application Express Plugins
+	D3 Tooltip (d3.oracle.barchart)
+
+	To be compiled alongside the Universal Theme LESS file.
+*/
+.a-D3Tooltip {
+  max-width: 350px;
+  min-width: 200px;
+  background-color: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 0px 1px 15px 0px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow: 0px 1px 15px 0px rgba(50, 50, 50, 0.6);
+  box-shadow: 0px 1px 15px 0px rgba(50, 50, 50, 0.6);
+  margin: 15px;
+}
+.a-D3Tooltip-heading {
+  padding: 0em 0.5em;
+  height: 2em;
+}
+.a-D3Tooltip-heading > * {
+  line-height: 2em;
+  vertical-align: middle;
+}
+.a-D3Tooltip-heading--no-label .a-D3Tooltip-value {
+  opacity: 1;
+  margin-left: 0;
+  padding-left: 0.5em;
+  float: left;
+}
+.a-D3Tooltip-marker {
+  width: 1em;
+  height: 1em;
+  display: block;
+  float: left;
+}
+.a-D3Tooltip-marker--square {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.a-D3Tooltip-marker--circle {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 100%;
+}
+.a-D3Tooltip-marker--rect {
+  height: 2em;
+  margin-left: -0.5em;
+}
+.a-D3Tooltip-label {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-left: 0.5em;
+}
+.a-D3Tooltip-value {
+  display: block;
+  float: right;
+  opacity: 0.75;
+  margin-left: 2em;
+}
+.a-D3Tooltip-value:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.a-D3Tooltip-content {
+  margin: 0em 0.5em 0.5em 0.5em;
+  padding-top: 0.25em;
+  border-top: 1px solid #ddd;
+  text-align: justify;
+}
